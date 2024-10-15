@@ -17,7 +17,7 @@ export default function Footer() {
                             Toll Free Number:1800 203 1111<br />
                             E -mail: info@gujarattourism.com
                         </Col>
-                        <Col >
+                        <Col className="py-3">
                             <ul >
                                 <h4 className="text-warning ">To Begin Your Journey</h4>
                                 <li><a href='https://www.gujarattourism.com/central-zone/ahmedabad.html' >Ahmedabad</a></li>
@@ -27,8 +27,8 @@ export default function Footer() {
                                 <li><a href="https://www.gujarattourism.com/south-zone/surat.html">Surat</a></li>
                             </ul>
                         </Col>
-                        <Col>
-                        <img className="w-auto h-75 " src="https://www.gujarattourism.com/content/dam/gujrattourism/images/other-images/gujarat-tourism-logo.png" alt="logo" />
+                        <Col >
+                        <img style={{height:'15rem' ,width:'20rem'}} src="https://www.gujarattourism.com/content/dam/gujrattourism/images/other-images/gujarat-tourism-logo.png" alt="logo" />
                         </Col>
                     </Row>
                 </Container>

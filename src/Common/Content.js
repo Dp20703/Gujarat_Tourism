@@ -13,11 +13,11 @@ export default function Content() {
 function Feature() {
     return (
         <>
-            <Container fluid className="my-4 mx-1">
+            <Container fluid>
                 <h2 className="py-3 px-2">Features</h2>
                 <Row>
                     <Col>
-                        <Card className="bg-primary text-white m-2">
+                        <Card className="bg-dark text-white m-2">
                             <Card.Header>
 
                                 <i className="fs-3 ri-map-fill" />
@@ -29,7 +29,7 @@ function Feature() {
                             </Card.Body>
                         </Card></Col>
                     <Col>
-                        <Card className="bg-primary text-white m-2">
+                        <Card className="bg-dark text-white m-2">
                             <Card.Header>
                                 <i className="fs-3 ri-notification-fill" />
                                 <span className="fs-3 mx-2">Real-Time Updates</span>
@@ -40,7 +40,7 @@ function Feature() {
                             </Card.Body>
                         </Card></Col>
                     <Col>
-                        <Card className="bg-primary text-white m-2">
+                        <Card className="bg-dark text-white m-2">
                             <Card.Header>
                                 <i className="fs-3 ri-chat-4-fill" />
                                 <span className="fs-3 mx-2">Live Chat Support</span>
