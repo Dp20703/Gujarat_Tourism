@@ -14,14 +14,14 @@ function Feature() {
     return (
         <>
             <Container fluid>
-                <h2 className="py-3 px-2">Features</h2>
+                <h2 style={{border:'1px solid black ',backgroundColor:'transparent',color:'black',borderRadius:'10px'}} className="py-3 px-4 mt-2">Features</h2>
                 <Row>
                     <Col>
                         <Card className="bg-dark text-white m-2">
-                            <Card.Header>
+                            <Card.Header className="bg-black">
 
                                 <i className="fs-3 ri-map-fill" />
-                                <span className="fs-3 mx-2"> Interactive Maps</span>
+                                <span className="fs-3 mx-2 "> Interactive Maps</span>
                             </Card.Header>
                             <Card.Body>
                                 <Card.Text className="fs-5"> Detailed maps with points of interest, routes, and interactive elements to help users plan their trips2.
@@ -30,7 +30,7 @@ function Feature() {
                         </Card></Col>
                     <Col>
                         <Card className="bg-dark text-white m-2">
-                            <Card.Header>
+                            <Card.Header className="bg-black">
                                 <i className="fs-3 ri-notification-fill" />
                                 <span className="fs-3 mx-2">Real-Time Updates</span>
                             </Card.Header>
@@ -41,7 +41,7 @@ function Feature() {
                         </Card></Col>
                     <Col>
                         <Card className="bg-dark text-white m-2">
-                            <Card.Header>
+                            <Card.Header className="bg-black">
                                 <i className="fs-3 ri-chat-4-fill" />
                                 <span className="fs-3 mx-2">Live Chat Support</span>
                             </Card.Header>
